@@ -10,7 +10,7 @@ var desktopPrefix = process.env['DESKTOP_PREFIX'];
 var daliRoot = '';
 
 try {
-    this.onTizen = fs.statSync('/etc/tizen-release').isFile();
+    onTizen = fs.statSync('/etc/tizen-release').isFile();
 } catch (e) {
     // Nothing to do
 }
